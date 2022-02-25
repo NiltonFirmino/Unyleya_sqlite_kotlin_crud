@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"></ImageView>
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Adicionar no Empregado"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Telefone:"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/text_employee_number"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Número de Telefone"
+        android:inputType="number"
+         />
+    <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Nome do Funcionário:"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/text_employee_name"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="45dp"
+        android:hint="Nome"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Email do Funcionário:"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+    <EditText
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:layout_height="45dp"
+        android:id="@+id/text_employee_email"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="Endereço de Email"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <Button
+        android:id="@+id/button_save_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:text="Salvar"
+        android:layout_marginLeft="5dp"
+        />
+
+</LinearLayout>

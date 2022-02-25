@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    tools:text="Employee Name"
+    android:id="@+id/text_employee_name"
+    android:textSize="20dp"></TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="10000 d@a.com"
+    android:id="@+id/text_emp_email"
+    ></TextView>
+
+</LinearLayout>
